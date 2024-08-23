@@ -1,0 +1,67 @@
+/* Estilos da barra de navegação */
+header nav {
+    background-color:lightskyblue;
+    padding: 10px 0;
+}
+
+/* Estilos da lista de navegação */
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    
+}
+
+/* Estilos dos itens da lista */
+.nav li {
+    margin: 0 15px;
+}
+
+/* Estilos dos links */
+.nav a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: Arial;
+}
+
+/* Efeito hover nos links */
+.nav a:hover {
+    color: #ff6347;
+}
+
+.texto{
+    text-align: justify;
+    margin-left: 20px;
+}
+
+main .sublink {
+    background-color:rgb(86, 235, 143);
+    padding: 10px 0;
+}
+
+.nav2 {
+    list-style-type: none;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: Arial;
+    margin-left: 0px;
+}
+
+/* Efeito hover nos links */
+.nav2 a:hover {
+    color: #ff6347;
+}
+footer {
+    background-color: hsl(21, 97%, 70%);
+    padding: 10px 0;
+}
+.rodape p {
+    text-align: center;
+}

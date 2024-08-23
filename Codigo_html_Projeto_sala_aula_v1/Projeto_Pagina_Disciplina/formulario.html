@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="primeiroNome">Primeiro Nome:</label><br>
+            <input id="primeiroNome" type="text" name="primeiroNome">
+        </div>
+        <div>
+            <label>Matriculado:</label><br>
+            <input id = 'radioSIM' type="radio" name="matriculado" value="SIM">
+            <label for="radioSIM">SIM</label><br>
+            <input id = 'radioNAO' type="radio" name="matriculado" value="NÃO">
+            <label for="radioNAO">NÃO</label><br>
+            <input id = 'radioTrancado' type="radio" name="matriculado" value="TRANCADO">
+            <label for="radioTrancado">TRANCADO</label><br>
+        </div>
+        <div>
+            <label for="idPeriodo">Período</label><br>
+            <select name="periodo" id="idPeriodo">
+                <option value="2023.1">2023.1</option>
+                <option value="2023.2">2023.2</option>
+                <option value="2024.1">2024.1</option>
+            </select>
+        </div>
+        <div>
+            <label for="observacoes">Observações</label><br>
+            <textarea name="observacoes" id="observacoes" cols="10" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

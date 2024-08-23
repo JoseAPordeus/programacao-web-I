@@ -1,0 +1,92 @@
+/* Carrinho de itens */
+.carrinho-itens {
+    padding: 2rem;
+}
+
+/* Item do carrinho */
+.carrinho-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Imagem do item */
+.carrinho-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+/* Detalhes do item */
+.carrinho-item-detalhes {
+    flex: 1;
+}
+
+.carrinho-item-detalhes h3 {
+    margin: 0;
+}
+
+.carrinho-item-detalhes p {
+    margin: 0.5rem 0;
+}
+
+/* Botão para remover item do carrinho */
+.carrinho-item button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0,3s;
+}
+
+.carrinho-item button:hover {
+    background-color: #cc0000;
+}
+
+/* Seção do total do carrinho */
+.carrinho-total {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+/* Botões genéricos no carrinho */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.block__element {
+    font-size: 16px;
+}
+
+.block__element--modifier{
+    color: #ff0000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: static;
+}

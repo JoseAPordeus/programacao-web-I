@@ -1,0 +1,39 @@
+/* Estilos da barra de navegação */
+nav {
+    background-color:lightskyblue;
+    padding: 10px 0;
+}
+
+/* Estilos da lista de navegação */
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    
+}
+
+/* Estilos dos itens da lista */
+.nav li {
+    margin: 0 15px;
+}
+
+/* Estilos dos links */
+.nav a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: Arial;
+}
+
+/* Efeito hover nos links */
+.navbar a:hover {
+    color: #ff6347;
+}
+footer {
+    background-color: hsl(21, 97%, 70%);
+    padding: 10px 0;
+}
+.rodape p {
+    text-align: center;
+}
